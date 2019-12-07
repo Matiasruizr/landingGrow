@@ -27,9 +27,11 @@ export default {
     }
   },
   created: function() {
-    setTimeout(() => {
-      location.replace('https://growonline.cl/')
-    }, 2500);
+    // setTimeout(() => {
+    //   // this.$router.go('https://growonline.cl/')
+    //   this.window.location.href = "https://growonline.cl/"
+    //   // this.location.replace('https://growonline.cl/')
+    // }, 2500);
   }
 }
 </script>
