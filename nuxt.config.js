@@ -43,7 +43,16 @@ export default {
   ],
   /*
   ** Build configuration
-  */
+  */// Extiende las rutas para crear páginas personalizadas
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue')
+      })
+    }
+},
   build: {
     /*
     ** You can extend webpack config here
