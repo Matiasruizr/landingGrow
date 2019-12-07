@@ -37,6 +37,10 @@ export default {
 </script>
 
 <style>
+  .primary_color_bg {
+    background: #09ad2a!important;
+  }
+
   .primary_color{
     color: #09ad2a;
   }

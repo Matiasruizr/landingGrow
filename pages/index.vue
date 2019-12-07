@@ -10,7 +10,7 @@
     </h3>
 
     <h3 class="subtitle is-5 has-text-grey has-text-centered">
-      Te estamos redirigiendo a nuestro nuevo sitio...
+      <b-button class="primary_color_bg" type="is-primary">Ir al nuevo sitio</b-button>
     </h3>
   </section>
 </template>
